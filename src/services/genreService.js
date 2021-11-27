@@ -1,7 +1,7 @@
 import config from "../config/config.json";
 import http from "./httpService";
 
-const genreEndpoint = config.genresEndpoint;
+const genreEndpoint = "/genres/";
 
 export async function getGenres() {
   //console.log(genreEndpoint, "GenreEndpoint");

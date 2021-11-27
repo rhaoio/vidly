@@ -1,5 +1,5 @@
 import React from "react";
-import { useEffect, useState } from "react/cjs/react.development";
+import { useEffect, useState } from "react";
 import Input from "./common/input";
 import Joi from "joi-browser";
 import { saveMovie, getMovie } from "../services/movieService";

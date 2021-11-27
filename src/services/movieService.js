@@ -2,7 +2,7 @@ import http from "./httpService";
 import config from "../config/config.json";
 import { getGenres } from "./genreService";
 
-const movieEndpoint = config.moviesEndpoint;
+const movieEndpoint = "/movies/";
 
 export function getMovies() {
   const movies = http.get(movieEndpoint);
